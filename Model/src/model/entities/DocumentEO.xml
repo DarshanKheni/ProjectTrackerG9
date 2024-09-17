@@ -71,6 +71,18 @@
     Type="java.sql.Timestamp"
     ColumnType="DATE"
     TableName="G9_DOCUMENT"/>
+  <Attribute
+    Name="DocumentType"
+    Precision="30"
+    ColumnName="DOCUMENT_TYPE"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="G9_DOCUMENT">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="30"/>
+    </DesignTime>
+  </Attribute>
   <AccessorAttribute
     Name="Pl"
     Association="model.entities.FkDocumentPlIdAssoc"
