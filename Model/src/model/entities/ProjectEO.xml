@@ -99,6 +99,13 @@
     AssociationOtherEnd="model.entities.FkSubmoduleProjectCodeAssoc.Project"
     Type="oracle.jbo.RowIterator"
     IsUpdateable="false"/>
+  <AccessorAttribute
+    Name="Module"
+    Association="model.entities.FkModuleProjectCodeAssoc"
+    AssociationEnd="model.entities.FkModuleProjectCodeAssoc.Module"
+    AssociationOtherEnd="model.entities.FkModuleProjectCodeAssoc.Project"
+    Type="oracle.jbo.RowIterator"
+    IsUpdateable="false"/>
   <Key
     Name="ChkStatus">
     <DesignTime>

@@ -48,13 +48,6 @@
     ColumnType="NUMBER"
     TableName="G9_SUBMODULE"/>
   <Attribute
-    Name="Deadline"
-    ColumnName="DEADLINE"
-    SQLType="DATE"
-    Type="java.sql.Timestamp"
-    ColumnType="DATE"
-    TableName="G9_SUBMODULE"/>
-  <Attribute
     Name="StartDate"
     ColumnName="START_DATE"
     SQLType="DATE"
